@@ -66,7 +66,7 @@ header #logo {
 }
 
 .main__text{
-    background-image: url(resourscer/Rectangle\ 1@2x.jpg);
+    background-image: url(../resourscer/Rectangle\ 1@2x.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 1200px;
