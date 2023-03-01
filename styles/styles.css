@@ -6,7 +6,7 @@ body{
     font-family: 'Manrope', courier, monospace;
     background: #f5f5f5;
     width: 1400px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .tag{
@@ -35,16 +35,14 @@ header #logo {
     color: #101010;
     font-size: 18px;
     line-height: 24px;
-    
 }
 
 #menu > a:not(:last-child) {
     margin-right: 10%;
 }
 
-#menu > a {color: #101010;}
-
 #menu > a {
+    color: #101010;
     text-decoration: none;
 }
 
@@ -66,20 +64,24 @@ header #logo {
 }
 
 .main__text{
+    margin: 0 auto;
+    width: 1200px;
+    height: 500px;
+    position: relative;
     background-image: url(../resourscer/Rectangle\ 1@2x.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 1200px;
-    height: 500px;
-    padding: 38px 40px ;
-    margin: 0 auto;
     box-sizing: border-box;
 }
 
 .main__text > p{
-    padding: 340px 40px 40px 40px;
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    width: 430px;
     font-size: 20px;
     line-height: 27px;
+    font-weight: 400;
     color: #fff;
     letter-spacing: -0.03em;
 }
@@ -170,11 +172,9 @@ button{
 /*Услуги*/
 
 #services{
-   
     width: 1450px;
-    height: 1850px;
+    height: 1900px;
     background-color: #121212;
-    left: 0px;
 }
 
 .tag__serv{
@@ -182,39 +182,45 @@ button{
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
-    padding: 151px 0px 0px 127px;
+    padding: 151px 0px 34px 127px;
+}
+
+.serv{
+    margin: 0 0 60px 127px;
+}
+
+.serv:nth-last-child(2) {
+    margin-bottom: 150px;
 }
 
 .serv__img{
     width: 1200px;
     height: 270px;
-    padding: 60px 0px 0px 127px;
 }
 
 h3 {
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
-    padding-bottom: 60px;
     color: #fff;
-    padding: 15px 0px 0px 127px;
+    padding-top: 15px;
 }
 
-.big__serv{
+.big__serv-img{
+    position: relative;
     width: 1450px;
     height: 717px;
-    top: 1844px;
-    padding: 15px 0px 0px 0px;
     background-size: 1450px 717px;
     background-repeat: no-repeat;
-    background-position: 0 150px;
     background-color: #121212;
     background-image: url('../resourscer/Rectangle\ 10@2x.jpg');
 }
 
-.big__serv > h3{
-    padding-top: 575px;
-    padding-left: 125px;
+.big__serv-img-text{
+    position: absolute;
+    left: 125px;
+    bottom: 60px;  
+    width: 445px; 
     color: #fff;
     font-size: 30px;
     line-height: 41px;
@@ -224,7 +230,7 @@ h3 {
 /*Контакты*/
 
 #contact {
-    padding-top: 868px;
+    padding-top: 808px;
     padding-left: 125px;
     height: 330px;
 }
