@@ -1,0 +1,277 @@
+html{
+    scroll-behavior: smooth
+    
+}
+
+body{
+    font-family: 'Manrope', courier, monospace;
+    background: #f5f5f5;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1150px;
+    margin: 0 auto 150px;
+    padding: 0 15px;
+    position: relative;
+}
+
+/*Шабка сайта*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 33px 0 70px;
+}
+
+#logo{
+    display: block;
+}
+
+.menu__list{
+    display: flex;
+    gap: 40px 60px;
+}
+
+.menu__link{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: #121212;
+    text-transform: uppercase;
+}
+
+.menu__link:hover {
+    opacity: .5;
+    text-decoration: underline;
+}
+/*Заголовок сайта*/
+
+.main__title{
+    width: 1000px;
+    font-size: 60px;
+    line-height: 60px;
+    padding: 0 0 30px 0;
+}
+
+.main__text{
+    margin: 0 auto;
+    width: 1150px;
+    height: 500px;
+    position: relative;
+    background-image: url(../resourscer/Rectangle\ 1@2x.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.main__text > p{
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    width: 430px;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: -0.03em;
+}
+
+/*О нас*/
+
+.title{
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.about__text{
+    width: 1150px;
+    font-size: 45px;
+    line-height: 61px;
+    padding-bottom: 30px;
+    color: #121212;
+}
+
+.about__btn{
+    font-size: 20px;
+    line-height: 27px;
+    background-color: #ad1818;
+    display: block;
+    align-items: center;
+    text-decoration: none;
+    padding: 20px 40px;
+    gap: 10px;
+    border-radius: 5px;
+    position: absolute;
+    color: #fff;
+}
+
+.about__btn:hover{
+    color: #fff;
+    background: #ad1818;
+}
+
+/*Проекты*/
+
+.project__img{
+    width: 1150px;
+    margin: 0 0 15px 0;
+}
+
+.project__rc{
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0 0 15px 0;
+}
+
+.project__more{
+    font-size: 20px;
+    line-height: 27px;
+    margin: 0 0 90px 0;
+    color: #ad1818;
+}
+
+.project__link{
+    width: 1150px;
+    height: 153px;
+    font-size: 30px;
+    line-height: 153px;
+    color: #ad1818;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #ad1818;
+    border-radius: 5px; 
+    cursor: pointer;
+    background-color: #f5f5f5;
+    margin-bottom: 150px;
+}
+
+.project__link:hover{
+    color: #f5f5f5;
+    background-color: #ad1818;
+}
+
+/*Услуги*/
+
+#services{
+    padding: 151px 0 1px 0;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #121212;
+}
+
+.serv:not(:last-child) {
+    padding-bottom: 60px;
+}
+
+.serv__img{
+    width: 1150px;
+    height: 270px;
+}
+
+.serv__text{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;   
+    letter-spacing: -0.03em;
+}
+
+.serv__big{
+
+    margin: 0 auto;
+    
+    background-size: 100%;
+    background-color: #121212;
+}
+
+.serv__container{
+    width: auto;
+    margin: 0 auto;
+}
+
+.serv__big-img{
+    width: 100%;
+    height: auto;
+}
+
+.serv__big-text{
+    position: absolute;
+    left: 125px;
+    bottom: 60px;  
+    width: 445px; 
+    color: #fff;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+}
+
+/*Контакты*/
+
+.contacts__icon {
+    margin-bottom: 13px;
+    width: 13px;
+    height: 22px
+}
+
+.contacts__tel{
+    color: #121212;
+    text-decoration: none;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+}
+
+.contacts__mail{
+    color: #121212;
+    opacity: 0.5;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+}
+
+.mail__item{
+    padding-top: 30px;
+}
+
+/*Footer*/
+
+.footer{
+    height: 229px;
+    color: #fff;
+    padding: 60px 0 30px;
+    background: #121212;
+    text-align: center;
+}
+
+.footer-menu {
+    padding-bottom: 87px
+}
+
+.footer-menu__list {
+    display: flex;
+    justify-content: center;
+    gap: 20px 53px;
+}
+
+.footer-menu__link{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-menu__link:hover {
+    opacity: 0.5;
+}
