@@ -278,3 +278,25 @@ body{
 .footer-menu__link:hover {
     opacity: 0.5;
 }
+
+@media (max-width: 1024px) {
+    .main__text > p{
+        bottom: 100px;
+    }
+}
+
+@media (max-width: 1001px) {
+    .main__title{
+     width: 100%;
+     font-size: 35px;
+    }
+    .main__text > p{
+        bottom: 100px;
+    }
+    .title{
+     font-size: 14px;
+    }
+    .about__text{
+     font-size: 25px;
+    }
+ }
