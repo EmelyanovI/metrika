@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>METRIKA</title>
+
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +29,7 @@
                 </nav>
             </div>
         </div>
-    </header>   
+    </header>    
     <!--Загаловок сайта-->
     <section id="main">
         <div class="container">
@@ -59,20 +60,24 @@
     <section id="project">
         <div class="container">
             <h2 class="title">Проекты</h2>
-            <div class="project">
-                <img class="project__img" src="resourscer/Rectangle 6@2x.jpg" alt="Photo Project">
-                <p class="project__rc">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
-                <p class="project__more">Подробнее →</p>
-
-                <img class="project__img" src="resourscer/Rectangle 7@2x.jpg" alt="Photo Project">
-                <p class="project__rc">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
-                <p class="project__more">Подробнее →</p>
-
-                <img class="project__img" src="resourscer/Rectangle 5@2x.jpg" alt="Photo Project">
-                <p class="project__rc">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</p>
-                <p class="project__more">Подробнее →</p>
-                <a class="project__link" href="#">Смотреть все проекты</a>
-            </div>
+            <ul class="projects">
+                <li class="project">
+                    <img class="project__img" src="resourscer/Rectangle 6@2x.jpg" alt="Photo Project">
+                    <p class="project__rc">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
+                    <a class="project__more" href="#main">Подробнее →</a>
+                </li>
+                <li class="project">
+                    <img class="project__img" src="resourscer/Rectangle 7@2x.jpg" alt="Photo Project">
+                    <p class="project__rc">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
+                    <a class="project__more" href="#main">Подробнее →</a>
+                </li>
+                <li class="project">
+                    <img class="project__img" src="resourscer/Rectangle 5@2x.jpg" alt="Photo Project">
+                    <p class="project__rc">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</p>
+                    <a class="project__more" href="#main">Подробнее →</a>
+                </li>
+            </ul>
+                <a class="project__link" href="#">Смотреть все проекты</a>      
         </div>
     </section>
     <!--Услуги-->
@@ -129,6 +134,6 @@
             </nav>
             <p class="footer_text">студия дизайна интерьера Метрика — 2023</p>
         </div>
-    </section>   
+    </section>
 </body>
 </html>
