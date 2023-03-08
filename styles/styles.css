@@ -239,12 +239,6 @@ body{
 
 /*Контакты*/
 
-/*.contacts__icon {
-    margin-bottom: 13px;
-    width: 13px;
-    height: 22px
-}*/
-
 .contacts__title{
     width: 90px;
     height: 25px;
@@ -313,7 +307,6 @@ body{
 .footer-menu__link{
     font-size: 18px;
     line-height: 25px;
-    
     text-transform: uppercase;
     text-decoration: none;
     color: white;
