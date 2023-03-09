@@ -214,6 +214,7 @@ body{
     margin: 0 auto;
     background-size: 100%;
     background-color: #121212;
+    line-height: 0;
 }
 
 .serv__container{
