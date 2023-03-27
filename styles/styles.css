@@ -73,7 +73,7 @@ body{
     width: 100%;
     height: 500px;
     position: relative;
-    background-image: url(../resourscer/Rectangle\ 1@2x.jpg);
+    background-image: url(../resourscer/Rectangle1@2x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 30% 50%;
@@ -129,92 +129,6 @@ body{
     background: #ad1818;
 }
 
-@media (max-width: 1199px) and (min-width: 820px) {
-    .container {
-        width: 100%;
-        padding: 0 17px 0 15px;
-        margin-bottom: 120px;        
-    }
-    /*Заголовок сайта*/
-    .main__title{
-        max-width: 960px;
-        padding: 74px 0 30px 0;
-        font-size: calc(50px + 10 * (100vw - 300px) / 860);
-    }
-    .main__text{
-        height: 400px;
-        background-image: url(../resourscer/tablet/Rectangle\ 1.jpg);
-    }
-    .main__text > p{
-        bottom: 30px;
-    }
-    /*О нас*/
-}
-
-@media (max-width: 819px) and (min-width: 576px) {
-    .container {
-        width: 100%;
-        padding: 0 17px 0 15px;
-        margin-bottom: 120px;        
-    }
-    /*Заголовок сайта*/
-    .main__title{
-        width: 100%;
-        padding: 68px 0 27px 0;
-        font-size: calc(30px + 30 * (100vw - 300px) / 860);
-        line-height: calc(32px + 28 * (100vw - 300px) / 860);
-    }
-    .main__text{
-        height: 400px;
-        background-image: url(../resourscer/tablet/Rectangle\ 1.jpg);
-    }
-    .main__text > p{
-        left: 15px;
-        bottom: 15px;
-    }
-    /*О нас*/
-}
-
-@media (max-width: 575px){
-    .container {
-        padding: 0 13px 0 12px;
-        margin-bottom: 80px;        
-    }
-    /*Заголовок сайта*/
-    .main__title{
-        padding: 61px 0 25px 0;
-        font-size: calc(30px + 30 * (100vw - 300px) / 860);
-        line-height: calc(32px + 28 * (100vw - 300px) / 860);
-    }
-    .main__text{
-        height: 304px;
-        background-image: url(../resourscer/phone/Rectangle\ 1.jpg);
-    }
-    .main__text > p{
-        left: 15px;
-        bottom: 15px;
-        width: 85%;
-        font-size: 16px;
-        line-height: 22px;
-        font-weight: 200;
-    }
-    /*О нас*/
-    .title{
-        font-size: 14px;
-        line-height: 20px;
-        padding-bottom: 20px;
-    }
-    .about__text{
-        width: 100%;
-        font-size: calc(22px + 23 * (100vw - 350px) / 575);
-        line-height: calc(30px + 31 * (100vw - 350px) / 575);
-    }
-    .about__btn {
-        font-size: 16px;
-        line-height: 22px;
-        padding: 14.5px 27px;
-    }
-}
 /*Проекты*/
 
 #project{
@@ -228,6 +142,10 @@ body{
 .project__img{
     width: 100%;
     margin: 0 0 15px 0;
+}
+
+.project__img img{
+    width: 100%;
 }
 
 .project__rc{
@@ -268,6 +186,187 @@ body{
     background-color: #ad1818;
 }
 
+@media (max-width: 1199px) and (min-width: 820px) {
+    .container {
+        width: 100%;
+        padding: 0 17px 0 15px;
+        margin-bottom: 120px;        
+    }
+    /*Заголовок сайта*/
+    .main__title{
+        max-width: 960px;
+        padding: 74px 0 30px 0;
+        font-size: calc(50px + 10 * (100vw - 300px) / 860);
+    }
+    .main__text{
+        height: 400px;
+        background-image: url(../resourscer/tablet/Rectangle1.jpg);
+    }
+    .main__text > p{
+        bottom: 30px;
+    }
+    /*О нас*/
+    .about__text{
+        width: 80%;
+        font-size: calc(35px + 10 * (100vw - 1000px) / 860);
+        line-height: calc(47px + 14 * (100vw - 1000px) / 860);
+    }
+    .about__btn {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    /*Проекты*/
+    #project{
+        margin: 171px 0 0 0;
+    }
+    .projects .project {
+        margin: 0 0 80px 0;
+    }
+    .project__img {
+        width: 100%;
+        max-height: 450px;
+    }
+    .project__rc{
+        font-size: calc(25px + 5 * (100vw - 400px) / 575);
+        line-height: calc(34px + 6 * (100vw - 400px) / 575);
+        margin: 15px 0 10px 0;
+    }
+    .project:last-child{
+        margin: 0 0 102px 0;
+    }
+    .project__link{
+        line-height: calc(95px + 50 * (100vw - 400px) / 575);
+        height: 153px;
+        margin-bottom: 103px;
+    }
+}
+
+@media (max-width: 819px) and (min-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 17px 0 15px;
+        margin-bottom: 120px;        
+    }
+    /*Заголовок сайта*/
+    .main__title{
+        width: 100%;
+        padding: 68px 0 27px 0;
+        font-size: calc(30px + 30 * (100vw - 300px) / 860);
+        line-height: calc(32px + 28 * (100vw - 300px) / 860);
+    }
+    .main__text{
+        height: 400px;
+        background-image: url(../resourscer/tablet/Rectangle1.jpg);
+    }
+    .main__text > p{
+        left: 15px;
+        bottom: 15px;
+    }
+    /*О нас*/
+    .about__text{
+        width: 80%;
+        font-size: calc(35px + 10 * (100vw - 1000px) / 860);
+        line-height: calc(47px + 14 * (100vw - 1000px) / 860);
+    }
+    .about__btn {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 18px 30px;
+    }
+    /*Проекты*/
+    #project{
+        margin: 151px 0 0 0;
+    }
+    .projects .project {
+        margin: 0 0 65px 0;
+    }
+    .project__img {
+        width: 100%;
+        max-height: 450px;
+    }
+    .project__rc{
+        font-size: calc(22px + 8 * (100vw - 400px) / 575);
+        line-height: calc(30px + 10 * (100vw - 400px) / 575);
+        margin: 18px 0 10px 0;
+    }
+    .project:last-child{
+        margin: 0 0 82px 0;
+    }
+    .project__link{
+        max-height: 153px;
+        margin-bottom: 125px;
+    }
+}
+
+@media (max-width: 575px){
+    .container {
+        padding: 0 13px 0 12px;
+        margin-bottom: 80px;        
+    }
+    /*Заголовок сайта*/
+    .main__title{
+        padding: 61px 0 25px 0;
+        font-size: calc(30px + 30 * (100vw - 300px) / 860);
+        line-height: calc(32px + 28 * (100vw - 300px) / 860);
+    }
+    .main__text{
+        height: 304px;
+        background-image: url(../resourscer/phone/Rectangle1.jpg);
+    }
+    .main__text > p{
+        left: 15px;
+        bottom: 15px;
+        width: 85%;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 200;
+    }
+    /*О нас*/
+    .title{
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 20px;
+    }
+    .about__text{
+        width: 100%;
+        font-size: calc(22px + 23 * (100vw - 400px) / 575);
+        line-height: calc(30px + 31 * (100vw - 400px) / 575);
+    }
+    .about__btn {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 14.5px 27px;
+    }
+    /*Проекты*/
+    #project{
+        margin: 131px 0 0 0;
+    }
+    .projects .project {
+        margin: 0 0 49px 0;
+    }
+    .project__img img{
+        width: 100%;
+        max-height: 250px;
+    }
+    .project__rc{
+        font-size: calc(18px + 12 * (100vw - 400px) / 575);
+        line-height: calc(25px + 15 * (100vw - 400px) / 575);
+        margin: 20px 0 11px 0;
+    }
+    .project__more{
+        font-size: calc(16px + 4 * (100vw - 400px) / 575);
+        line-height: calc(22px + 5 * (100vw - 400px) / 575);
+    }
+    .project:last-child{
+        margin: 0 0 60px 0;
+    }
+    .project__link{
+        font-size: calc(22px + 8 * (100vw - 400px) / 575);
+        line-height: calc(90px + 55 * (100vw - 400px) / 575);
+        height: 100px;
+        margin-bottom: 144px;
+    }
+}
 /*Услуги*/
 
 #services{
