@@ -1,0 +1,81 @@
+/*Заголовок сайта*/
+.main__title{
+    max-width: 1000px;
+    font-size: 60px;
+    line-height: 60px;
+    padding: 0 0 30px 0;
+    letter-spacing: -0.03em;
+}
+.main__text{
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: url(../resourscer/Rectangle1@2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 50%;
+}
+.main__text > p{
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    max-width: 430px;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: -0.03em;
+}
+@media (max-width: 1199px) and (min-width: 820px) {
+    /*Заголовок сайта*/
+    .main__title{
+        max-width: 960px;
+        padding: 74px 0 30px 0;
+        font-size: calc(50px + 10 * (100vw - 300px) / 860);
+    }
+    .main__text{
+        height: 400px;
+        background-image: url(../resourscer/tablet/Rectangle1.jpg);
+    }
+    .main__text > p{
+        bottom: 30px;
+    }
+}
+@media (max-width: 819px) and (min-width: 576px) {
+    /*Заголовок сайта*/
+    .main__title{
+        width: 100%;
+        padding: 68px 0 27px 0;
+        font-size: calc(30px + 30 * (100vw - 300px) / 860);
+        line-height: calc(32px + 28 * (100vw - 300px) / 860);
+    }
+    .main__text{
+        height: 400px;
+        background-image: url(../resourscer/tablet/Rectangle1.jpg);
+    }
+    .main__text > p{
+        left: 15px;
+        bottom: 15px;
+    }
+}
+@media (max-width: 575px){
+    /*Заголовок сайта*/
+    .main__title{
+        padding: 61px 0 25px 0;
+        font-size: calc(30px + 30 * (100vw - 300px) / 860);
+        line-height: calc(32px + 28 * (100vw - 300px) / 860);
+    }
+    .main__text{
+        height: 304px;
+        background-image: url(../resourscer/phone/Rectangle1.jpg);
+    }
+    .main__text > p{
+        left: 15px;
+        bottom: 15px;
+        width: 85%;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 200;
+    }
+}

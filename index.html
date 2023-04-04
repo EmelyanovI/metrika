@@ -6,12 +6,12 @@
     <title>METRIKA</title>
 
     <link rel="stylesheet" href="styles/reset.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet"> 
     <link sizes="16x16" rel="icon" href="resourscer/main-icon.png">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="index.js">
 </head>
 <body>
     <!--Шапка сайта-->
@@ -120,7 +120,7 @@
                     <a class="project__more" href="#main">Подробнее →</a>
                 </li>
             </ul>
-                <a class="project__link" href="#">Смотреть все проекты</a>
+                <a class="full-btn-red__link" href="#">Смотреть все проекты</a>
         </div>
     </section>
 
@@ -191,11 +191,13 @@
                         умение правильно слышать пожелания своих клиентов и выполнять 
                         работу, которая превосходит все ожидания! Мы даже не надеялись, 
                         что на 34 кв.м. кто-то сможет нам грамотно разместить все, 
-                        что мы хотим и даже больше!</div>
-                    <div class="reviews__text">
+                        что мы хотим и даже больше!
+                        <br>
+                        <br>
                         Вам удалось это просто превосходно! Нам лишь осталось воплотить 
                         красоту, которую Вы нам создали в жизнь и поделиться с Вами 
-                        результатом!</div>
+                        результатом!
+                    </div>
                 </div>
                 <div class="reviews__box">
                     <div class="reviews__title">Регина, проект 89 кв.м.</div>
@@ -203,11 +205,13 @@
                         Все стильно, круто, продумано! Очень приятно было с вами работать! 
                         Спасибо, что терпели наши «хочу это, хочу то» в поисках идеального 
                         для нас ремонта. Здорово, что мы нашли такого основательного, 
-                        ответственного и внимательного к деталям дизайнера!</div>
-                    <div class="reviews__text">
+                        ответственного и внимательного к деталям дизайнера!
+                        <br>
+                        <br>
                         Хочется скорее реализовать проект и наслаждаться современной, 
                         функциональной и красивой квартирой! Будем рекомендовать Вас всем 
-                        друзьям и знакомым!</div>
+                        друзьям и знакомым!
+                    </div>
                 </div>
                 <div class="reviews__box">
                     <div class="reviews__title">Яна, проект 120 кв.м.</div>
@@ -217,25 +221,105 @@
                         качество выполнения работы. Но волнения были напрасны: все вопросы 
                         решались оперативно, всегда предлагалось несколько вариантов решения, 
                         а также предоставлялись комментарии, какой способ решения будет 
-                        более подходящим.</div>
-                    <div class="reviews__text">
+                        более подходящим.
+                        <br>
+                        <br>
                         В итоге проект был сдан в оговоренный срок, и мне просто не 
                         терпится приступить к его реализации! Проект получился очень 
                         стильным и современным! Буду рекомендовать Вас тем, кому еще 
-                        предстоит это непростое дело - ремонт!</div>
+                        предстоит это непростое дело - ремонт!
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--Карусель-->
-    <section class="serv__big">
-        <div class="serv__container">
-            <img class="serv__big-img" src="resourscer/Rectangle10@2x.jpg" alt="Фото ЖК Лесной Пейзаж">
+    <!--Слайды-->
+    <section class="gallery">
+        <div class="container">
+            <p class="gallery__title">Галерея проектов</p>
         </div>
-        <!--<div class="container">
-            <h3 class="serv__big-text">Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</h3>
-        </div>-->
+        <div class="gallery__container">
+            <div class="gallery__slides">
+                <div class="gallery__slide gallery__slide_active">
+                    <picture class="gallery__slide-img">
+                        <source
+                            media="(max-width: 574px)"
+                            srcset="resourscer/phone/rc-forest.jpg">
+                        <source
+                            media="(max-width: 819px) and (min-width: 576px)"
+                            srcset="resourscer/tablet/rc-forest.jpg">
+                        <source
+                            media="(max-width: 1199px) and (min-width: 820px)"
+                            srcset="resourscer/tablet/rc-forest.jpg">
+                        <img 
+                            src="resourscer/rc-forest@2x.jpg" 
+                            alt="Фото ЖК Лесной Пейзаж">
+                    </picture>
+                    <div class="container">
+                            <h3 class="gallery__text">Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</h3>
+                    </div>
+                </div>
+                <div class="gallery__slide">
+                    <picture class="gallery__slide-img">
+                        <source
+                            media="(max-width: 574px)"
+                            srcset="resourscer/phone/rc-lighthaus.jpg">
+                        <source
+                            media="(max-width: 819px) and (min-width: 576px)"
+                            srcset="resourscer/tablet/rc-lighthaus.jpg">
+                        <source
+                            media="(max-width: 1199px) and (min-width: 820px)"
+                            srcset="resourscer/tablet/rc-lighthaus.jpg">
+                        <img 
+                            src="resourscer/rc-lighthaus@2x.jpg" 
+                            alt="Фото ЖК Маяк">
+                    </picture>
+                </div>
+                <div class="gallery__slide">
+                    <picture class="gallery__slide-img">
+                        <source
+                            media="(max-width: 574px)"
+                            srcset="resourscer/phone/rc-living-room.jpg">
+                        <source
+                            media="(max-width: 819px) and (min-width: 576px)"
+                            srcset="resourscer/tablet/rc-living-room.jpg">
+                        <source
+                            media="(max-width: 1199px) and (min-width: 820px)"
+                            srcset="resourscer/tablet/rc-living-room.jpg">
+                        <img 
+                            src="resourscer/rc-living-room@2x.jpg" 
+                            alt="Фото кухни-гостиной в частном доме">
+                    </picture>
+                </div>
+                <div class="gallery__slide">
+                    <picture class="gallery__slide-img">
+                        <source
+                            media="(max-width: 574px)"
+                            srcset="resourscer/phone/rc-north-wind.jpg">
+                        <source
+                            media="(max-width: 819px) and (min-width: 576px)"
+                            srcset="resourscer/tablet/rc-north-wind.jpg">
+                        <source
+                            media="(max-width: 1199px) and (min-width: 820px)"
+                            srcset="resourscer/tablet/rc-north-wind.jpg">
+                        <img 
+                            src="resourscer/rc-north-wind@2x.jpg" 
+                            alt="Фото ЖК Северный ветер">
+                    </picture>
+                </div>
+            </div>
+            <div class="container">
+                <div class="gallery__control">
+                    <button class="gallery__control-prev">
+                        <img src="resourscer/arrow-prev.svg" alt="arrow-prev">
+                    </button>
+                    <button class="gallery__control-next">
+                        <img src="resourscer/arrow-next.svg" alt="arrow-next">
+                    </button>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!--Контакты-->
@@ -263,5 +347,6 @@
             <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
         </div>
     </section>-->
+    <script src="index.js"></script>
 </body>
 </html>

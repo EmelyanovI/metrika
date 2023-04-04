@@ -1,0 +1,94 @@
+/*Отзывы*/
+.reviews{
+    margin: 150px 0 157px 0;
+}
+.reviews__box-wrapper{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap:80px 50px;
+}
+.reviews__box{
+    flex: 1 0 calc(50% - 25px);
+    max-width: 75%;
+    max-height: 100%;
+}
+.reviews__title{
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 62px;   
+    letter-spacing: -0.03em;
+}
+.reviews__text{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;   
+    letter-spacing: -0.03em;
+    padding: 14px 0 0 0;
+}
+@media (max-width: 1199px) and (min-width: 820px) {
+    /*Отзывы*/
+    .reviews{
+        margin: 117px 0 0 0;
+    }
+    .reviews__box-wrapper{
+        gap:80px 10px;
+    }
+    .reviews__box{
+        max-width: 80%;
+    }
+    .reviews__title{
+        font-size: calc(35px + 10 * (100vw - 576px) / 860);
+        line-height: calc(48px + 14 * (100vw - 576px) / 860);
+    }
+    .reviews__text{
+        font-size: calc(20px + 2 * (100vw - 375px) / 860);
+        line-height: calc(27px + 3 * (100vw - 375px) / 860);
+        padding: 25px 0 0 0;
+    }
+}
+@media (max-width: 819px) and (min-width: 576px) {
+    /*Отзывы*/
+    .reviews{
+        margin: 100px 0 0 0;
+    }
+    .reviews__box-wrapper{
+        gap:85px 10px;
+    }
+    .reviews__box{
+        flex: 1 0 calc(50% - 5px);
+        max-width: 80%;
+        max-height: 100%;
+    }
+    .reviews__title{
+        font-size: calc(30px + 15 * (100vw - 576px) / 860);
+        line-height: calc(41px + 21 * (100vw - 576px) / 860);
+    }
+    .reviews__text{
+        font-size: calc(18px + 4 * (100vw - 375px) / 860);
+        line-height: calc(24px + 6 * (100vw - 375px) / 860);
+        padding: 15px 0 0 0;
+    }
+}
+@media (max-width: 575px){
+    /*Отзывы*/
+    .reviews{
+        margin: 80px 0 0 0;
+    }
+    .reviews__box-wrapper{
+        gap:80px;
+    }
+    .reviews__box{
+        flex: none;
+        max-width: 100%;
+    }
+    .reviews__title{
+        font-size: calc(25px + 20 * (100vw - 375px) / 575);
+        line-height: calc(34px + 28 * (100vw - 375px) / 575);
+    }
+    .reviews__text{
+        font-size: calc(16px + 6 * (100vw - 375px) / 575);
+        line-height: calc(22px + 8 * (100vw - 375px) / 575);
+        padding: 10px 0 0 0;
+    }
+}

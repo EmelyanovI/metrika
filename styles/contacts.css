@@ -1,0 +1,50 @@
+/*Контакты*/
+.contacts__title{
+    width: 90px;
+    height: 25px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-bottom: 58px;
+    padding: 40px 0 0 0;
+    position: relative;
+}
+.contacts__title:before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 13px;
+    height: 22px;
+    background-image: url('../resourscer/Vector@2x.svg');
+    bottom: 12px;
+}
+.contacts__tel{
+    color: #121212;
+    text-decoration: none;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.04em;
+}
+.contacts__mail{
+    color: #121212;
+    opacity: 0.5;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    border-bottom: 1px solid #000000;
+}
+.mail__item{
+    padding-top: 30px;
+}
+@media (max-width: 1199px) and (min-width: 820px) {
+    /*Контакты*/
+}
+@media (max-width: 819px) and (min-width: 576px) {
+    /*Контакты*/
+}
+@media (max-width: 575px){
+    /*Контакты*/
+}

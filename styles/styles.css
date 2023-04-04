@@ -1,7 +1,15 @@
+@import url(../styles/header.css);
+@import url(../styles/main.css);
+@import url(../styles/about.css);
+@import url(../styles/project.css);
+@import url(../styles/services.css);
+@import url(../styles/reviews.css);
+@import url(../styles/gallery.css);
+@import url(../styles/contacts.css);
+@import url(../styles/footer.css);
 html{
     scroll-behavior: smooth
 }
-
 body{
     font-family: 'Manrope', courier, monospace;
     background: #ffffff;
@@ -11,160 +19,18 @@ body{
     margin: 0 auto;
     letter-spacing: -0.03em;
 }
-
 .container{
     max-width: 1150px;
     margin: 0 auto 150px;
     position: relative;
 }
-
-/*Шабка сайта*/
-
-.container-header{
-    max-width: 1150px;
-    margin: 0 auto;
-    position: relative;
-}
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    padding: 33px 0 70px;
-}
-
-#logo{
-    display: block;
-}
-
-.menu__list{
-    display: flex;
-    gap: 40px 60px;
-}
-
-.menu__link{
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: -0.03em;
-    transition: all 0.5s ease;
-    text-decoration: none;
-    color: #121212;
-    text-transform: uppercase;
-}
-
-.menu__link:hover {
-    opacity: 0.5;
-    border-bottom: 1px solid #000000;
-}
-
-/*Заголовок сайта*/
-
-.main__title{
-    max-width: 1000px;
-    font-size: 60px;
-    line-height: 60px;
-    padding: 0 0 30px 0;
-    letter-spacing: -0.03em;
-}
-
-.main__text{
-    margin: 0 auto;
-    width: 100%;
-    height: 500px;
-    position: relative;
-    background-image: url(../resourscer/Rectangle1@2x.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 30% 50%;
-}
-
-.main__text > p{
-    position: absolute;
-    left: 40px;
-    bottom: 40px;
-    max-width: 430px;
-    font-size: 20px;
-    line-height: 27px;
-    font-weight: 400;
-    color: #fff;
-    letter-spacing: -0.03em;
-}
-
-/*О нас*/
-
 .title{
     font-size: 18px;
     line-height: 25px;
     padding-bottom: 30px;
     text-transform: uppercase;
 }
-
-.about__text{
-    max-width: 1048px;
-    font-size: 45px;
-    line-height: 61px;
-    padding-bottom: 30px;
-    color: #121212;
-    letter-spacing: -0.03em;
-}
-
-.about__btn{
-    font-size: 20px;
-    line-height: 27px;
-    background-color: #ad1818;
-    display: block;
-    align-items: center;
-    text-decoration: none;
-    padding: 20px 40px;
-    gap: 10px;
-    border-radius: 5px;
-    position: absolute;
-    color: #fff;
-    letter-spacing: -0.03em;
-}
-
-.about__btn:hover{
-    color: #fff;
-    background: #ad1818;
-}
-
-/*Проекты*/
-
-#project{
-    margin: 217px 0 0 0;
-}
-
-.projects .project{
-    margin: 0 0 90px 0;
-}
-
-.project__img{
-    width: 100%;
-    margin: 0 0 15px 0;
-}
-
-.project__img img{
-    width: 100%;
-}
-
-.project__rc{
-    font-size: 30px;
-    line-height: 40px;
-    margin: -1px 0 15px 0;
-    letter-spacing: -0.03em;
-}
-
-.project__more{
-    margin: -2px 0 0 0;
-    font-size: 20px;
-    line-height: 27px;
-    color: #ad1818; 
-    text-decoration: none;
-    letter-spacing: -0.03em;
-}
-
-.project__link{
+.full-btn-red__link{
     width: 100%;
     height: 152px;
     font-size: 30px;
@@ -180,544 +46,47 @@ body{
     background-color: #fff;
     margin-bottom: 150px;
 }
-
-.project__link:hover{
+.full-btn-red__link:hover{
     color: #fff;
     background-color: #ad1818;
 }
-
-/*Услуги*/
-
-#services{
-    padding: 151px 0 1px 0;
-    margin: 0 auto;
-    color: #fff;
-    background-color: #121212;
-}
-.serv__wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap:85px 10px;
-    padding-bottom: 106px;
-}
-.serv__box{
-    position: relative;
-    max-width: calc(570px - 5px)
-}
-.serv__label{
-    position: absolute;
-    top: 32px;
-    left: 30px;
-    padding: 5px 22px 5px 20px;
-    background-color: #ad1818;
-    border-radius: 5px;
-    font-size: 22px;
-    line-height: 30px;
-    letter-spacing: -0.03em;
-    color: #fff;
-}
-.serv__img img{
-    max-width: calc(570px - 5px);
-    height: 389px;
-}
-.serv__text{
-    max-width: 400px;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 41px;   
-    letter-spacing: -0.03em;
-    padding: 25px 0 0 0;
-}
-.serv__link{
-    width: 100%;
-    height: 152px;
-    font-size: 30px;
-    line-height: 145px;
-    letter-spacing: -0.03em;
-    color: #ffffff;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px; 
-    cursor: pointer;
-    background-color: #ad1818;
-    margin-bottom: 150px;
-}
-.serv__link:hover{
-    color: #ad1818;
-    background-color: #ffffff;
-}
-/*Отзывы*/
-.reviews{
-    margin: 150px 0 157px 0;
-}
-.reviews__box-wrapper{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   gap:80px 10px;
-}
-.reviews__box{
-    flex: 1 0 calc(50% - 5px);
-    max-width: 75%;
-    max-height: 100%;
-}
-.reviews__title{
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 62px;   
-    letter-spacing: -0.03em;
-}
-.reviews__text{
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 30px;   
-    letter-spacing: -0.03em;
-    padding: 14px 0 0 0;
-}
-
 @media (max-width: 1199px) and (min-width: 820px) {
     .container {
         width: 100%;
-        padding: 0 17px 0 15px;
+        padding: 0 15px 0 15px;
         margin-bottom: 120px;        
     }
-    /*Заголовок сайта*/
-    .main__title{
-        max-width: 960px;
-        padding: 74px 0 30px 0;
-        font-size: calc(50px + 10 * (100vw - 300px) / 860);
-    }
-    .main__text{
-        height: 400px;
-        background-image: url(../resourscer/tablet/Rectangle1.jpg);
-    }
-    .main__text > p{
-        bottom: 30px;
-    }
-    /*О нас*/
-    .about__text{
-        width: 80%;
-        font-size: calc(35px + 10 * (100vw - 1000px) / 860);
-        line-height: calc(47px + 14 * (100vw - 1000px) / 860);
-    }
-    .about__btn {
-        font-size: 20px;
-        line-height: 28px;
-    }
-    /*Проекты*/
-    #project{
-        margin: 171px 0 0 0;
-    }
-    .projects .project {
-        margin: 0 0 80px 0;
-    }
-    .project__img {
-        width: 100%;
-        max-height: 450px;
-    }
-    .project__rc{
-        font-size: calc(25px + 5 * (100vw - 400px) / 575);
-        line-height: calc(34px + 6 * (100vw - 400px) / 575);
-        margin: 15px 0 10px 0;
-    }
-    .project:last-child{
-        margin: 0 0 102px 0;
-    }
-    .project__link{
+    .full-btn-red__link{
         line-height: calc(95px + 50 * (100vw - 400px) / 575);
         height: 153px;
         margin-bottom: 103px;
     }
-    /*Услуги*/
-    .serv__wrapper{
-        gap: 80px 10px;
-        padding-bottom: 80px;
-    }
-    .serv__box{
-        max-width: calc(50% - 5px);
-    }
-    .serv__label{
-        padding: 7px 26px 6px 27px;
-        font-size: calc(20px + 2 * (100vw - 375px) / 575);
-        line-height: calc(27px + 3 * (100vw - 375px) / 575);
-    }
-    .serv__img img{
-        width: 100%;
-        height: calc(100%);
-    }
-    .serv__text{
-        font-size: calc(25px + 5 * (100vw - 375px) / 575);
-        line-height: calc(34px + 7 * (100vw - 375px) / 575);
-        padding: 10px 0 0 0;
-    }
-    .serv__link{
-        margin-bottom: 0px;
-    }
-    /*Отзывы*/
-    .reviews{
-        margin: 117px 0 0 0;
-    }
-    .reviews__box-wrapper{
-        gap:80px 10px;
-    }
-    .reviews__box{
-        max-width: 80%;
-    }
-    .reviews__title{
-        font-size: calc(35px + 10 * (100vw - 576px) / 860);
-        line-height: calc(48px + 14 * (100vw - 576px) / 860);
-    }
-    .reviews__text{
-        font-size: calc(20px + 2 * (100vw - 375px) / 860);
-        line-height: calc(27px + 3 * (100vw - 375px) / 860);
-        padding: 25px 0 0 0;
-    }
-    /*Карусель*/
-    /*Контакты*/
-    /*Footer*/
 }
-
 @media (max-width: 819px) and (min-width: 576px) {
     .container {
         width: 100%;
-        padding: 0 17px 0 15px;
+        padding: 0 15px 0 15px;
         margin-bottom: 120px;        
     }
-    /*Заголовок сайта*/
-    .main__title{
-        width: 100%;
-        padding: 68px 0 27px 0;
-        font-size: calc(30px + 30 * (100vw - 300px) / 860);
-        line-height: calc(32px + 28 * (100vw - 300px) / 860);
-    }
-    .main__text{
-        height: 400px;
-        background-image: url(../resourscer/tablet/Rectangle1.jpg);
-    }
-    .main__text > p{
-        left: 15px;
-        bottom: 15px;
-    }
-    /*О нас*/
-    .about__text{
-        width: 80%;
-        font-size: calc(35px + 10 * (100vw - 1000px) / 860);
-        line-height: calc(47px + 14 * (100vw - 1000px) / 860);
-    }
-    .about__btn {
-        font-size: 18px;
-        line-height: 25px;
-        padding: 18px 30px;
-    }
-    /*Проекты*/
-    #project{
-        margin: 151px 0 0 0;
-    }
-    .projects .project {
-        margin: 0 0 65px 0;
-    }
-    .project__img {
-        width: 100%;
-        max-height: 450px;
-    }
-    .project__rc{
-        font-size: calc(22px + 8 * (100vw - 400px) / 575);
-        line-height: calc(30px + 10 * (100vw - 400px) / 575);
-        margin: 18px 0 10px 0;
-    }
-    .project:last-child{
-        margin: 0 0 82px 0;
-    }
-    .project__link{
+    .full-btn-red__link{
         max-height: 153px;
         margin-bottom: 125px;
     }
-    /*Услуги*/
-    .serv__box{
-        max-width: calc(50% - 5px);
-    }
-    .serv__label{
-        top: 28px;
-        left: 27px;
-        font-size: calc(17px + 5 * (100vw - 375px) / 575);
-        line-height: calc(23px + 15 * (100vw - 375px) / 575);
-    }
-    .serv__img img{
-        width: 100%;
-        height: calc(100%);
-    }
-    .serv__text{
-        max-width: 400px;
-        font-size: calc(21px + 9 * (100vw - 375px) / 575);
-        line-height: calc(30px + 11 * (100vw - 375px) / 575);
-        padding: 10px 0 0 0;
-    }
-    .serv__link{
-        height: 125px;
-        font-size: calc(22px + 8 * (100vw - 375px) / 575);
-        line-height: 120px;
-    }
-    /*Отзывы*/
-    .reviews{
-        margin: 100px 0 0 0;
-    }
-    .reviews__box-wrapper{
-        gap:85px 10px;
-    }
-    .reviews__box{
-        flex: 1 0 calc(50% - 5px);
-        max-width: 80%;
-        max-height: 100%;
-    }
-    .reviews__title{
-        font-size: calc(30px + 15 * (100vw - 576px) / 860);
-        line-height: calc(41px + 21 * (100vw - 576px) / 860);
-    }
-    .reviews__text{
-        font-size: calc(18px + 4 * (100vw - 375px) / 860);
-        line-height: calc(24px + 6 * (100vw - 375px) / 860);
-        padding: 15px 0 0 0;
-    }
-    /*Карусель*/
-    /*Контакты*/
-    /*Footer*/
 }
-
 @media (max-width: 575px){
     .container {
         padding: 0 13px 0 13px;
         margin-bottom: 80px;        
     }
-    /*Заголовок сайта*/
-    .main__title{
-        padding: 61px 0 25px 0;
-        font-size: calc(30px + 30 * (100vw - 300px) / 860);
-        line-height: calc(32px + 28 * (100vw - 300px) / 860);
-    }
-    .main__text{
-        height: 304px;
-        background-image: url(../resourscer/phone/Rectangle1.jpg);
-    }
-    .main__text > p{
-        left: 15px;
-        bottom: 15px;
-        width: 85%;
-        font-size: 16px;
-        line-height: 22px;
-        font-weight: 200;
-    }
-    /*О нас*/
     .title{
         font-size: 14px;
         line-height: 20px;
         padding-bottom: 20px;
     }
-    .about__text{
-        width: 100%;
-        font-size: calc(22px + 23 * (100vw - 400px) / 575);
-        line-height: calc(30px + 31 * (100vw - 400px) / 575);
-    }
-    .about__btn {
-        font-size: 16px;
-        line-height: 22px;
-        padding: 14.5px 27px;
-    }
-    /*Проекты*/
-    #project{
-        margin: 131px 0 0 0;
-    }
-    .projects .project {
-        margin: 0 0 49px 0;
-    }
-    .project__img img{
-        width: 100%;
-        max-height: 395px;
-    }
-    .project__rc{
-        font-size: calc(18px + 12 * (100vw - 400px) / 575);
-        line-height: calc(25px + 15 * (100vw - 400px) / 575);
-        margin: 20px 0 11px 0;
-    }
-    .project__more{
-        font-size: calc(16px + 4 * (100vw - 400px) / 575);
-        line-height: calc(22px + 5 * (100vw - 400px) / 575);
-    }
-    .project:last-child{
-        margin: 0 0 60px 0;
-    }
-    .project__link{
+    .full-btn-red__link{
         font-size: calc(22px + 8 * (100vw - 400px) / 575);
         line-height: calc(90px + 55 * (100vw - 400px) / 575);
         height: 100px;
         margin-bottom: 144px;
     }
-    /*Услуги*/
-    #services{
-        padding: 80px 0 1px 0;
-    }
-    .serv__wrapper{
-        gap: 60px;
-        padding-bottom: 60px;
-    }
-    .serv__box{
-        max-width: 100%;
-    }
-    .serv__label{
-        top: 24px;
-        left: 24px;
-        padding: 5px 23px 6px 24px;
-        font-size: calc(14px + 8 * (100vw - 375px) / 575);
-        line-height: calc(19px + 11 * (100vw - 375px) / 575);
-    }
-    .serv__img img{
-        width: 100%;
-        height: calc(100%);
-    }
-    .serv__text{
-        font-size: calc(18px + 12 * (100vw - 375px) / 575);
-        line-height: calc(25px + 16 * (100vw - 375px) / 575);
-        padding: 10px 0 0 0;
-    }
-    .serv__link{
-        height: 100px;
-        font-size: calc(22px + 8 * (100vw - 375px) / 575);
-        line-height: 90px;
-        margin-bottom: 0px;
-    }
-    /*Отзывы*/
-    .reviews{
-        margin: 80px 0 0 0;
-    }
-    .reviews__box-wrapper{
-        gap:80px;
-    }
-    .reviews__box{
-        flex: none;
-        max-width: 100%;
-    }
-    .reviews__title{
-        font-size: calc(25px + 20 * (100vw - 375px) / 575);
-        line-height: calc(34px + 28 * (100vw - 375px) / 575);
-    }
-    .reviews__text{
-        font-size: calc(16px + 6 * (100vw - 375px) / 575);
-        line-height: calc(22px + 8 * (100vw - 375px) / 575);
-        padding: 10px 0 0 0;
-    }
-    /*Карусель*/
-    /*Контакты*/
-    /*Footer*/
-}
-/*Карусель*/
-.serv__big{
-    margin: 0 auto;
-    background-size: 100%;
-    background-color: #121212;
-    line-height: 0;
-}
-
-.serv__container{
-    width: auto;
-    margin: 0 auto;
-}
-
-.serv__big-img{
-    width: 100%;
-    height: auto;
-}
-
-.serv__big-text{
-    position: absolute;
-    bottom: 60px;  
-    left: 5px;
-    width: 445px; 
-    color: #fff;
-    font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.03em;
-}
-
-/*Контакты*/
-
-.contacts__title{
-    width: 90px;
-    height: 25px;
-    font-size: 18px;
-    line-height: 25px;
-    font-weight: 400;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    margin-bottom: 58px;
-    padding: 40px 0 0 0;
-    position: relative;
-}
-
-.contacts__title:before{
-    content: '';
-    display: block;
-    position: absolute;
-    width: 13px;
-    height: 22px;
-    background-image: url('../resourscer/Vector@2x.svg');
-    bottom: 12px;
-}
-
-.contacts__tel{
-    color: #121212;
-    text-decoration: none;
-    font-size: 60px;
-    line-height: 60px;
-    letter-spacing: -0.04em;
-}
-
-.contacts__mail{
-    color: #121212;
-    opacity: 0.5;
-    font-size: 60px;
-    line-height: 60px;
-    letter-spacing: -0.03em;
-    text-decoration: none;
-    border-bottom: 1px solid #000000;
-}
-
-.mail__item{
-    padding-top: 30px;
-}
-
-/*Footer*/
-
-.footer{
-    height: 229px;
-    color: #fff;
-    padding: 70px 0 30px;
-    background: #121212;
-    text-align: center;
-}
-
-.footer-menu {
-    padding-bottom: 90px
-}
-
-.footer-menu__list {
-    display: flex;
-    justify-content: center;
-    gap: 56px;
-}
-
-.footer-menu__link{
-    font-size: 18px;
-    line-height: 25px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: white;
-}
-
-.footer-menu__link:hover {
-    opacity: 0.5;
-}
-
-.footer__text{
-    opacity: 0.5;
 }
