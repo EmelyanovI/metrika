@@ -1,4 +1,4 @@
-const ACTIVE_SLIDE_CLASSNAME = 'gallery__slide_active';
+const ACTIVE_SLIDE_CLASSNAME = 'active';
 
 const slidesNodes = Array.from(document.querySelectorAll('.gallery__slide'));
 console.log(slidesNodes);
@@ -9,7 +9,7 @@ let activeId;
 init();
 
 function init() {
-    activeID = 0;
+    activeId = 0;
 
     prevButtonNode.addEventListener('click', () =>{
         setActiveSlideById(getPrevId());
