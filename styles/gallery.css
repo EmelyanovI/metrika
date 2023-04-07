@@ -27,6 +27,8 @@
 }
 .gallery__slide{
     position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     opacity: 0;
     transition: 2.5s;
