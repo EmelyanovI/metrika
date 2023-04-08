@@ -70,7 +70,6 @@
 }
 .gallery__control-next:hover{
     opacity: 1;
-}
 @media (max-width: 1199px) and (min-width: 820px) {
     /*Слайды*/
     .gallery__title{
