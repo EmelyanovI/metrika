@@ -38,13 +38,12 @@
         max-width: 80%;
     }
     .reviews__title{
-        font-size: calc(35px + 10 * (100vw - 576px) / 860);
-        line-height: calc(48px + 14 * (100vw - 576px) / 860);
+        font-size: calc(35px + 10 * (100vw - 820px) / 379);
+        line-height: calc(48px + 14 * (100vw - 820px) / 379);
     }
     .reviews__text{
-        font-size: calc(20px + 2 * (100vw - 375px) / 860);
-        line-height: calc(27px + 3 * (100vw - 375px) / 860);
-        padding: 25px 0 0 0;
+        font-size: calc(20px + 2 * (100vw - 820px) / 379);
+        line-height: calc(27px + 3 * (100vw - 820px) / 379);
     }
 }
 @media (max-width: 819px) and (min-width: 576px) {
@@ -61,12 +60,12 @@
         max-height: 100%;
     }
     .reviews__title{
-        font-size: calc(30px + 15 * (100vw - 576px) / 860);
-        line-height: calc(41px + 21 * (100vw - 576px) / 860);
+        font-size: calc(30px + 15 * (100vw - 576px) / 623);
+        line-height: calc(41px + 21 * (100vw - 576px) / 623);
     }
     .reviews__text{
-        font-size: calc(18px + 4 * (100vw - 375px) / 860);
-        line-height: calc(24px + 6 * (100vw - 375px) / 860);
+        font-size: calc(18px + 4 * (100vw - 576px) / 623);
+        line-height: calc(24px + 6 * (100vw - 576px) / 623);
         padding: 15px 0 0 0;
     }
 }
@@ -83,12 +82,12 @@
         max-width: 100%;
     }
     .reviews__title{
-        font-size: calc(25px + 20 * (100vw - 375px) / 575);
-        line-height: calc(34px + 28 * (100vw - 375px) / 575);
+        font-size: calc(25px + 20 * (100vw - 350px) / 849);
+        line-height: calc(34px + 28 * (100vw - 350px) / 849);
     }
     .reviews__text{
-        font-size: calc(16px + 6 * (100vw - 375px) / 575);
-        line-height: calc(22px + 8 * (100vw - 375px) / 575);
+        font-size: calc(16px + 6 * (100vw - 350px) / 849);
+        line-height: calc(22px + 8 * (100vw - 350px) / 849);
         padding: 10px 0 0 0;
     }
 }
