@@ -70,13 +70,30 @@
 }
 .gallery__control-next:hover{
     opacity: 1;
-}
 @media (max-width: 1199px) and (min-width: 820px) {
     /*Слайды*/
+    .gallery__title{
+        top: 80px;
+    }
+    .gallery__text{
+        font-size: calc(25px + 5 * (100vw - 820px) / 379);
+        line-height: calc(34px + 7 * (100vw - 820px) / 379);
+    }
 }
 @media (max-width: 819px) and (min-width: 576px) {
     /*Слайды*/
 }
 @media (max-width: 575px){
     /*Слайды*/
+    .gallery__title{
+        width: 100%;
+    }
+    .gallery__slides{
+        height: 100%;
+    }
+    .gallery__text{
+        width: 100%;
+        font-size: calc(19px + 11 * (100vw - 350px) / 849);
+        line-height: calc(26px + 15 * (100vw - 350px) / 849);
+    }
 }
