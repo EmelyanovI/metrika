@@ -28,9 +28,9 @@
 @media (max-width: 1199px) and (min-width: 820px) {
     /*О нас*/
     .about__text{
-        width: 80%;
-        font-size: calc(35px + 10 * (100vw - 1000px) / 860);
-        line-height: calc(47px + 14 * (100vw - 1000px) / 860);
+        width: 85%;
+        font-size: calc(35px + 10 * (100vw - 820px) / 379);
+        line-height: calc(47px + 14 * (100vw - 820px) / 379);
     }
     .about__btn {
         font-size: 20px;
@@ -40,9 +40,9 @@
 @media (max-width: 819px) and (min-width: 576px) {
     /*О нас*/
     .about__text{
-        width: 80%;
-        font-size: calc(35px + 10 * (100vw - 1000px) / 860);
-        line-height: calc(47px + 14 * (100vw - 1000px) / 860);
+        width: 94%;
+        font-size: calc(35px + 10 * (100vw - 576px) / 623);
+        line-height: calc(47px + 14 * (100vw - 576px) / 623);
     }
     .about__btn {
         font-size: 18px;
@@ -59,8 +59,8 @@
     }
     .about__text{
         width: 100%;
-        font-size: calc(22px + 23 * (100vw - 400px) / 575);
-        line-height: calc(30px + 31 * (100vw - 400px) / 575);
+        font-size: calc(22px + 23 * (100vw - 350px) / 849);
+        line-height: calc(30px + 31 * (100vw - 350px) / 849);
     }
     .about__btn {
         font-size: 16px;

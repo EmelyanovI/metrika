@@ -30,9 +30,9 @@
 @media (max-width: 1199px) and (min-width: 820px) {
     /*Заголовок сайта*/
     .main__title{
-        max-width: 960px;
+        max-width: 895px;
         padding: 74px 0 30px 0;
-        font-size: calc(50px + 10 * (100vw - 300px) / 860);
+        font-size: calc(50px + 10 * (100vw - 820px) / 379);
     }
     .main__text{
         height: 400px;
@@ -47,8 +47,8 @@
     .main__title{
         width: 100%;
         padding: 68px 0 27px 0;
-        font-size: calc(30px + 30 * (100vw - 300px) / 860);
-        line-height: calc(32px + 28 * (100vw - 300px) / 860);
+        font-size: calc(30px + 30 * (100vw - 576px) / 623);
+        line-height: calc(32px + 28 * (100vw - 576px) / 623);
     }
     .main__text{
         height: 400px;
@@ -62,9 +62,11 @@
 @media (max-width: 575px){
     /*Заголовок сайта*/
     .main__title{
+        max-width: 95%;
+        letter-spacing: -0.04em;
         padding: 61px 0 25px 0;
-        font-size: calc(30px + 30 * (100vw - 300px) / 860);
-        line-height: calc(32px + 28 * (100vw - 300px) / 860);
+        font-size: calc(30px + 30 * (100vw - 350px) / 849);
+        line-height: calc(32px + 28 * (100vw - 350px) / 849);
     }
     .main__text{
         height: 304px;
