@@ -22,7 +22,7 @@ body{
 }
 .container{
     max-width: 1150px;
-    margin: 0 auto 150px;
+    margin: 0 auto;
     position: relative;
 }
 .title{
@@ -54,9 +54,8 @@ body{
 }
 @media (max-width: 1199px) and (min-width: 820px) {
     .container {
-        width: 100%;
-        padding: 0 15px 0 15px;
-        margin-bottom: 120px;        
+        max-width: 960px;
+        padding: 0 15px 0 15px;     
     }
     .full-btn-red__link{
         margin-bottom: 103px;
@@ -65,8 +64,7 @@ body{
 @media (max-width: 819px) and (min-width: 576px) {
     .container {
         width: 100%;
-        padding: 0 15px 0 15px;
-        margin-bottom: 120px;        
+        padding: 0 15px 0 15px;       
     }
     .full-btn-red__link{
         max-height: 153px;
@@ -75,8 +73,7 @@ body{
 }
 @media (max-width: 575px){
     .container {
-        padding: 0 13px 0 13px;
-        margin-bottom: 80px;        
+        padding: 0 13px 0 13px;       
     }
     .title{
         font-size: 14px;
@@ -85,7 +82,7 @@ body{
     }
     .full-btn-red__link{
         font-size: calc(22px + 8 * (100vw - 350px) / 849);
-        line-height: calc(30px + 11 * (100vw - 350px) / 849);
+        line-height: calc(30px + 11 * (100vw - 350px) / 225);
         padding: 37px 0;
         height: 100px;
         margin-bottom: 144px;

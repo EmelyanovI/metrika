@@ -6,22 +6,27 @@
     background: #121212;
     text-align: center;
 }
-.footer-menu {
-    padding-bottom: 90px
-}
-.footer-menu__list {
+.footer__wrapper{
     display: flex;
     justify-content: center;
-    gap: 56px;
 }
-.footer-menu__link{
+.footer__menu{
+    padding-bottom: 90px;
+}
+.footer__menu-list{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.footer__menu-link{
     font-size: 18px;
     line-height: 25px;
+    padding: 20px;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
 }
-.footer-menu__link:hover {
+.footer__menu-link:hover{
     opacity: 0.5;
 }
 .footer__text{

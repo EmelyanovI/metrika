@@ -15,6 +15,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 30% 50%;
+    margin-bottom: 150px;
 }
 .main__text > p{
     position: absolute;
@@ -26,6 +27,7 @@
     font-weight: 400;
     color: #fff;
     letter-spacing: -0.03em;
+
 }
 @media (max-width: 1199px) and (min-width: 820px) {
     /*Заголовок сайта*/
@@ -37,6 +39,7 @@
     .main__text{
         height: 400px;
         background-image: url(../resourscer/tablet/Rectangle1.jpg);
+        margin-bottom: 120px;
     }
     .main__text > p{
         bottom: 30px;
@@ -53,6 +56,7 @@
     .main__text{
         height: 400px;
         background-image: url(../resourscer/tablet/Rectangle1.jpg);
+        margin-bottom: 100px;
     }
     .main__text > p{
         left: 15px;
@@ -71,6 +75,7 @@
     .main__text{
         height: 304px;
         background-image: url(../resourscer/phone/Rectangle1.jpg);
+        margin-bottom: 80px;
     }
     .main__text > p{
         left: 15px;
