@@ -29,7 +29,7 @@
 @media (max-width: 1199px) and (min-width: 820px) {
     /*Отзывы*/
     .reviews{
-        margin: 117px 0 0 0;
+        margin: 117px 0 120px 0;
     }
     .reviews__box-wrapper{
         gap:80px 10px;
@@ -49,7 +49,7 @@
 @media (max-width: 819px) and (min-width: 576px) {
     /*Отзывы*/
     .reviews{
-        margin: 100px 0 0 0;
+        margin: 100px 0 100px 0;
     }
     .reviews__box-wrapper{
         gap:85px 10px;
@@ -72,7 +72,7 @@
 @media (max-width: 575px){
     /*Отзывы*/
     .reviews{
-        margin: 80px 0 0 0;
+        margin: 80px 0 80px 0;
     }
     .reviews__box-wrapper{
         gap:80px;
