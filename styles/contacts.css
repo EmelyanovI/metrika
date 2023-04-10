@@ -84,6 +84,8 @@
         font-size: calc(35px + 25 * (100vw - 350px) / 849);
         line-height: calc(45px + 15 * (100vw - 350px) / 849);
         top: -20px;
+        opacity: 1;
+        border-bottom: 0px;
     }
     .contacts__tel::before{
         width: 10px;
