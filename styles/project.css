@@ -7,10 +7,10 @@
 }
 .project__img{
     width: 100%;
-    margin: 0 0 15px 0;
 }
 .project__img img{
     width: 100%;
+    margin: 0 0 14px 0;
 }
 .project__rc{
     font-size: 30px;
@@ -29,7 +29,7 @@
 @media (max-width: 1199px) and (min-width: 820px) {
     /*Проекты*/
     #project{
-        margin: 171px 0 0 0;
+        margin: 185px 0 0 0;
     }
     .projects .project {
         margin: 0 0 80px 0;
@@ -41,10 +41,11 @@
     .project__rc{
         font-size: calc(25px + 5 * (100vw - 820px) / 379);
         line-height: calc(34px + 6 * (100vw - 820px) / 379);
-        margin: 15px 0 10px 0;
+        margin: -2px 0 8px 0;
+        letter-spacing: -0.07em;
     }
     .project:last-child{
-        margin: 0 0 102px 0;
+        margin: 0 0 98px 0;
     }
 }
 @media (max-width: 819px) and (min-width: 576px) {

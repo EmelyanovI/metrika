@@ -1,7 +1,7 @@
 /*Footer*/
 .footer{
     color: #fff;
-    padding: 70px 0 30px 0;
+    padding: 62px 0 22px 0;
     background: #121212;
     text-align: center;
 }
@@ -10,17 +10,17 @@
     justify-content: center;
 }
 .footer__menu{
-    padding-bottom: 90px;
+    padding-bottom: 88px;
 }
 .footer__menu-list{
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
 }
 .footer__menu-link{
     font-size: 18px;
     line-height: 25px;
-    padding: 20px;
+    padding: 22px;
     text-transform: uppercase;
     text-decoration: none;
     color: white;

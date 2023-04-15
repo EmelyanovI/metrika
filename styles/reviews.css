@@ -1,49 +1,52 @@
 /*Отзывы*/
 .reviews{
-    margin: 150px 0 157px 0;
+    margin: 150px 0 152px 0;
 }
 .reviews__box-wrapper{
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
-   gap:80px 50px;
+   gap:80px 14px;
 }
 .reviews__box{
     flex: 1 0 calc(50% - 25px);
-    max-width: 75%;
+    max-width: 76%;
     max-height: 100%;
 }
 .reviews__title{
     font-weight: 400;
     font-size: 45px;
-    line-height: 62px;   
-    letter-spacing: -0.03em;
+    line-height: 60px;   
+    letter-spacing: -0.035em;
 }
 .reviews__text{
     font-weight: 400;
     font-size: 22px;
     line-height: 30px;   
     letter-spacing: -0.03em;
-    padding: 14px 0 0 0;
+    padding: 14px 35px 0 0;
 }
 @media (max-width: 1199px) and (min-width: 820px) {
     /*Отзывы*/
     .reviews{
-        margin: 117px 0 120px 0;
+        margin: 117px 0 122px 0;
     }
     .reviews__box-wrapper{
         gap:80px 10px;
     }
     .reviews__box{
-        max-width: 80%;
+        max-width: 77%;
     }
     .reviews__title{
         font-size: calc(35px + 10 * (100vw - 820px) / 379);
-        line-height: calc(48px + 14 * (100vw - 820px) / 379);
+        line-height: calc(46px + 16 * (100vw - 820px) / 379);
+        letter-spacing: -0.078em;
     }
     .reviews__text{
         font-size: calc(20px + 2 * (100vw - 820px) / 379);
-        line-height: calc(27px + 3 * (100vw - 820px) / 379);
+        line-height: calc(25px + 5 * (100vw - 820px) / 379);
+        padding: 21px 8px 0 0;
+        letter-spacing: -0.055em;
     }
 }
 @media (max-width: 819px) and (min-width: 576px) {
