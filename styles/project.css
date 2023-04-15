@@ -10,7 +10,11 @@
 }
 .project__img img{
     width: 100%;
+<<<<<<< HEAD
     margin: 0 0 14px 0;
+=======
+    margin: 0 0 15px 0;
+>>>>>>> 60795f9e216edd03dc94549afdb98cbbd24e0ecf
 }
 .project__rc{
     font-size: 30px;
