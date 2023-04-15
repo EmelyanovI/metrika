@@ -10,15 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet"> 
     <link sizes="16x16" rel="icon" href="resourscer/main-icon.png">
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="index.js">
+    <link rel="stylesheet" href="styles/styles.css"> 
 </head>
 <body>
     <!--Шапка сайта-->
-    <!--<header> 
+    <header> 
         <div class="container-header">
             <div class="header">
-                <div id="logo">
+                <div class="logo">
                     <a href="../metrika/">
                     <img src="resourscer/Метрика@2x.svg" alt="Logo">
                     </a>
@@ -31,9 +30,30 @@
                         <li><a class="menu__link" href="#contacts">Контакты</a></li>
                     </ul>
                 </nav>
+                <div class="menu__btn js-menu__btn"></div>
             </div>
         </div>
-    </header>-->
+        <div class="menu__burger js-menu__burger">
+            <div class="menu__burger-wrapper js-menu__burger-wrapper">
+                <div class="menu__burger-logo">
+                    <a href="../metrika/">
+                    <img src="resourscer/Метрика@2x.svg" alt="Logo">
+                    </a>
+                </div>
+                <ul class="menu__list">
+                    <li><a class="menu__link" href="#about">О нас</a></li>
+                    <li><a class="menu__link" href="#project">Проекты</a></li>
+                    <li><a class="menu__link" href="#services">Услуги</a></li>
+                    <li><a class="menu__link" href="#contacts">Контакты</a></li>
+                </ul>
+                <h2 class="menu__burger-title">для связи:</h2>
+                <ul class="menu__burger-contacts" >
+                    <li><a class="burger__tel-link" href="tel:+7 935 895-45-35">+7 935 895-45-35</a></li>
+                    <li><a class="burger__mail-link" target="_blank" href="https://t.me/mr_varr">Emelyanov</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
     <!--Загаловок сайта-->
     <section id="main">
         <div class="container">
@@ -69,15 +89,15 @@
                     <picture class="project__img">
                         <source
                             media="(max-width: 575px)"
-                            srcset="resourscer/phone/Rectangle6@2x.jpg">
+                            srcset="resourscer/phone/rc-right-bank-phone@2x.jpg">
                         <source
                             media="(max-width: 819px) and (min-width: 576px)"
-                            srcset="resourscer/tablet/Rectangle6@2x.jpg">
+                            srcset="resourscer/tablet/rc-right-bank-table.jpg">
                         <source
                             media="(max-width: 1199px) and (min-width: 820px)"
-                            srcset="resourscer/tablet/Rectangle6@2x.jpg">
+                            srcset="resourscer/tablet/rc-right-bank-table.jpg">
                         <img 
-                            src="resourscer/Rectangle6@2x.jpg" alt="Photo Project">
+                            src="resourscer/rc-right-bank@2x.jpg" alt="Photo Right Bank">
                     </picture>
                     <p class="project__rc">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
                     <a class="project__more" href="#main">Подробнее →</a>
@@ -86,15 +106,15 @@
                     <picture class="project__img">
                         <source
                             media="(max-width: 575px)"
-                            srcset="resourscer/phone/Rectangle7@2x.jpg">
+                            srcset="resourscer/phone/rc-norw-park-phone.jpg">
                         <source
                             media="(max-width: 819px) and (min-width: 576px)"
-                            srcset="resourscer/tablet/Rectangle7@2x.jpg">
+                            srcset="resourscer/tablet/rc-norw-park-table.jpg">
                         <source
                             media="(max-width: 1199px) and (min-width: 820px)"
-                            srcset="resourscer/tablet/Rectangle7@2x.jpg">
+                            srcset="resourscer/tablet/rc-norw-park-table.jpg">
                         <img 
-                            src="resourscer/Rectangle7@2x.jpg" alt="Photo Project">
+                            src="resourscer/rc-norw-park@2x.jpg" alt="Photo Norwegian Park">
                     </picture>
                     <p class="project__rc">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
                     <a class="project__more" href="#main">Подробнее →</a>
@@ -103,15 +123,15 @@
                     <picture class="project__img">
                         <source
                             media="(max-width: 575px)"
-                            srcset="resourscer/phone/Rectangle5@2x.jpg">
+                            srcset="resourscer/phone/rc-pine-lakes-phone.jpg">
                         <source
                             media="(max-width: 819px) and (min-width: 576px)"
-                            srcset="resourscer/tablet/Rectangle5@2x.jpg">
+                            srcset="resourscer/tablet/rc-pine-lakes-table.jpg">
                         <source
                             media="(max-width: 1199px) and (min-width: 820px)"
-                            srcset="resourscer/tablet/Rectangle5@2x.jpg">
+                            srcset="resourscer/tablet/rc-pine-lakes-table.jpg">
                         <img 
-                            src="resourscer/Rectangle5@2x.jpg" alt="Photo Project">
+                            src="resourscer/rc-pine-lakes@2x.jpg" alt="Photo Pine Lakes">
                     </picture>
                     <p class="project__rc">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</p>
                     <a class="project__more" href="#main">Подробнее →</a>
@@ -154,7 +174,7 @@
                             media="(max-width: 575px)"
                             srcset="resourscer/phone/oversight.jpg">
                         <img 
-                        src="resourscer/oversight@2x.png" alt="Photo Services - Oversight">
+                        src="resourscer/oversight@2x.jpg" alt="Photo Services - Oversight">
                     </div>
                     <h3 class="serv__text">Авторский надзор</h3>
                 </div>
@@ -170,8 +190,21 @@
                     <h3 class="serv__text">Комплектация</h3>
                 </div>
             </div>
-            <a class="serv__link" href="#">Заказать услугу</a>
-        </div>
+            <a class="serv__popup js-serv__popup">Заказать услугу</a>
+            <div class="popup js-popup">
+                <div class="popup__content js-popup__content">
+                        <h2 class="popup__title">Заказать услугу</h2>
+                        <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</p>
+                        <div class="popup__input-wrapper"> 
+                            <input class="popup__input" type="text" placeholder="Имя">
+                            <input class="popup__input" type="text" placeholder="Электронная почта">
+                            <input class="popup__input" type="text" placeholder="Номер телефона">
+                        </div>
+                        <div class="popup__btn">Отправить</div>
+                        <div class="popup__btn-close js-popup__btn-close"></div>
+                    </div>
+                </div>
+            </div>
     </section>
     <!--Отзывы-->
     <section class="reviews">
@@ -282,7 +315,7 @@
             <h2 class="title">Контакты</h2>
             <ul class="contacts__wrapper" >
               <li class="contacts__tel"><a class="contacts__tel-link" href="tel:+7 935 895-45-35">+7 935 895-45-35</a></li>
-              <li class="contacts__mail"><a class="contacts__mail-link" target="_blank" href="https://t.me/mr_varr">Telegram Emelyanov</a></li>
+              <li class="contacts__mail"><a class="contacts__mail-link" target="_blank" href="https://t.me/mr_varr">Emelyanov</a></li>
             </ul>
           </div>
     </section>
@@ -302,6 +335,10 @@
             <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
         </div>
     </section>
-    <script src="index.js"></script>
+
+    <script src="js/index.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/gallery.js"></script>
 </body>
 </html>

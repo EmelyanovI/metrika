@@ -28,9 +28,11 @@
 @media (max-width: 1199px) and (min-width: 820px) {
     /*О нас*/
     .about__text{
-        width: 85%;
+        width: 83%;
         font-size: calc(35px + 10 * (100vw - 820px) / 379);
-        line-height: calc(47px + 14 * (100vw - 820px) / 379);
+        line-height: calc(41px + 20 * (100vw - 820px) / 379);
+        letter-spacing: -0.07em;
+        padding-bottom: 28px;
     }
     .about__btn {
         font-size: 20px;

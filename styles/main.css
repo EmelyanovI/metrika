@@ -11,7 +11,7 @@
     width: 100%;
     height: 500px;
     position: relative;
-    background-image: url(../resourscer/Rectangle1@2x.jpg);
+    background-image: url(../resourscer/wing-chair@2x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 30% 50%;
@@ -32,13 +32,14 @@
 @media (max-width: 1199px) and (min-width: 820px) {
     /*Заголовок сайта*/
     .main__title{
-        max-width: 895px;
-        padding: 74px 0 30px 0;
-        font-size: calc(50px + 10 * (100vw - 820px) / 379);
+        max-width: 830px;
+        padding: 0 0 30px 0;
+        font-size: calc(47px + 13 * (100vw - 820px) / 379);
+        letter-spacing: -0.05em;
     }
     .main__text{
         height: 400px;
-        background-image: url(../resourscer/tablet/Rectangle1.jpg);
+        background-image: url(../resourscer/tablet/wing-chair.jpg);
         margin-bottom: 120px;
     }
     .main__text > p{
@@ -49,13 +50,13 @@
     /*Заголовок сайта*/
     .main__title{
         width: 100%;
-        padding: 68px 0 27px 0;
+        padding: 0 0 27px 0;
         font-size: calc(30px + 30 * (100vw - 576px) / 623);
         line-height: calc(32px + 28 * (100vw - 576px) / 623);
     }
     .main__text{
         height: 400px;
-        background-image: url(../resourscer/tablet/Rectangle1.jpg);
+        background-image: url(../resourscer/tablet/wing-chair.jpg);
         margin-bottom: 100px;
     }
     .main__text > p{
@@ -68,13 +69,13 @@
     .main__title{
         max-width: 95%;
         letter-spacing: -0.04em;
-        padding: 61px 0 25px 0;
+        padding: 0 0 25px 0;
         font-size: calc(30px + 30 * (100vw - 350px) / 849);
         line-height: calc(32px + 28 * (100vw - 350px) / 849);
     }
     .main__text{
         height: 304px;
-        background-image: url(../resourscer/phone/Rectangle1.jpg);
+        background-image: url(../resourscer/phone/wing-chair.jpg);
         margin-bottom: 80px;
     }
     .main__text > p{

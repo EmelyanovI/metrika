@@ -3,20 +3,23 @@
     margin-bottom: 150px;
 }
 .contacts__wrapper{
-    padding: 25px 0 0 0;
+    padding: 43px 0 0 0;
     display: flex;
-    gap: 104px;
+    gap: 110px;
 }
 .contacts__tel,
 .contacts__mail{
     position: relative;
+}
+.contacts__mail{
+    margin: -11px 0 0 0;
 }
 .contacts__tel-link,
 .contacts__mail-link{
     color: #121212;
     font-size: 60px;
     line-height: 60px;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.02em;
     text-decoration: none;
 }
 .contacts__mail-link{
@@ -29,17 +32,18 @@
     display: block;
     position: absolute;
     background-size: contain;
-    top: -27px;
 }
 .contacts__tel::before{
     width: 13px;
     height: 22px;
     background-image: url('../resourscer/vector-phone.svg');
+    top: -49px;
 }
 .contacts__mail::before{
     width: 20px;
     height: 16px;
     background-image: url('../resourscer/vector-mail.svg');
+    top: -34px;
 }
 @media (max-width: 1199px) and (min-width: 820px) {
     /*Контакты*/
@@ -47,11 +51,12 @@
         margin-bottom: 120px;
     }
     .contacts__wrapper{
-        gap: 114px;
+        gap: 117px;
     }
     .contacts__tel-link,
     .contacts__mail-link{
         font-size: calc(45px + 15 * (100vw - 820px) / 379);
+        letter-spacing: -0.07em;
     }
 }
 @media (max-width: 819px) and (min-width: 576px) {
@@ -66,7 +71,6 @@
     .contacts__mail-link{
         font-size: calc(40px + 20 * (100vw - 576px) / 623);
         line-height: calc(50px + 10 * (100vw - 576px) / 623);
-        top: -24px;
     }
 }
 @media (max-width: 575px){
