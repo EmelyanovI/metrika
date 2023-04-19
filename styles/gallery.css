@@ -81,6 +81,11 @@
 .gallery__control-next:hover{
     opacity: 1;
 }
+@media (max-width: 1199px) and (min-width: 1000px) {
+    .gallery__control{
+        top: 300px;
+    }
+}
 @media (max-width: 1199px) and (min-width: 820px) {
     /*Слайды*/
     .gallery{
@@ -94,7 +99,7 @@
     .gallery__control{
         padding: 0 0 0 26px;
         width: calc(100% - 25px);
-        top: 345px;
+        top: 340px;
     }
     .gallery__slide-img{
         height: 536px;
