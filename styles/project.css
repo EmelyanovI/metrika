@@ -1,6 +1,6 @@
 /*Проекты*/
 #project{
-    margin: 217px 0 0 0;
+    margin: 217px 0 150px 0;
 }
 .projects .project{
     margin: 0 0 90px 0;
@@ -10,11 +10,7 @@
 }
 .project__img img{
     width: 100%;
-<<<<<<< HEAD
     margin: 0 0 14px 0;
-=======
-    margin: 0 0 15px 0;
->>>>>>> 60795f9e216edd03dc94549afdb98cbbd24e0ecf
 }
 .project__rc{
     font-size: 30px;
@@ -33,7 +29,7 @@
 @media (max-width: 1199px) and (min-width: 820px) {
     /*Проекты*/
     #project{
-        margin: 185px 0 0 0;
+        margin: 120px 0 100px 0;
     }
     .projects .project {
         margin: 0 0 80px 0;
@@ -55,7 +51,7 @@
 @media (max-width: 819px) and (min-width: 576px) {
     /*Проекты*/
     #project{
-        margin: 151px 0 0 0;
+        margin: 100px 0 90px 0;
     }
     .projects .project {
         margin: 0 0 65px 0;
@@ -76,7 +72,7 @@
 @media (max-width: 575px){
     /*Проекты*/
     #project{
-        margin: 131px 0 0 0;
+        margin: 80px 0 80px 0;
     }
     .projects .project {
         margin: 0 0 49px 0;

@@ -77,7 +77,7 @@
             Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — 
             нацелены на результат. 
             </p>
-            <a class="about__btn" href="#services">Посмотреть услуги</a>
+            <a class="full-btn full-btn__small" href="#services">Посмотреть услуги</a>
         </div>
     </section>
      <!--Проекты-->
@@ -137,15 +137,15 @@
                     <a class="project__more" href="#main">Подробнее →</a>
                 </li>
             </ul>
-                <a class="full-btn-red__link" href="#">Смотреть все проекты</a>
+                <a class="full-btn full-btn__white" href="#">Смотреть все проекты</a>
         </div>
     </section>
     <!--Услуги-->
     <section id="services">
         <div class="container">
             <h2 class="title">Услуги</h2>
-            <div class="serv__wrapper">
-                <div class="serv__box">
+            <ul class="serv__wrapper">
+                <li class="serv__box">
                     <p class="serv__label">от 2500₽/м²</p>
                     <div class="serv__img">
                         <source
@@ -155,8 +155,8 @@
                             src="resourscer/planning@2x.jpg" alt="Photo Services - Plan">
                     </div>
                     <h3 class="serv__text">Планировочное решение</h3>
-                </div>
-                <div class="serv__box">
+                </li>
+                <li class="serv__box">
                     <p class="serv__label">от 3000₽/м²</p>
                     <div class="serv__img">
                         <source
@@ -166,8 +166,8 @@
                             src="resourscer/design@2x.jpg" alt="Photo Services - Design">
                     </div>
                     <h3 class="serv__text">Дизайн-проект</h3>
-                </div>
-                <div class="serv__box">
+                </li>
+                <li class="serv__box">
                     <p class="serv__label">от 30 000₽/мес</p>
                     <div class="serv__img">
                         <source
@@ -177,8 +177,8 @@
                         src="resourscer/oversight@2x.jpg" alt="Photo Services - Oversight">
                     </div>
                     <h3 class="serv__text">Авторский надзор</h3>
-                </div>
-                <div class="serv__box">
+                </li>
+                <li class="serv__box">
                     <p class="serv__label">5% от стоимости</p>
                     <div class="serv__img">
                         <source
@@ -188,19 +188,20 @@
                         src="resourscer/set@2x.jpg" alt="Photo Services - Set">
                     </div>
                     <h3 class="serv__text">Комплектация</h3>
-                </div>
-            </div>
-            <a class="serv__popup js-serv__popup">Заказать услугу</a>
+                </li>
+            </ul>
+            <!--Попап-->
+            <button class="full-btn js-btn__popup">Заказать услугу</button>
             <div class="popup js-popup">
                 <div class="popup__content js-popup__content">
                         <h2 class="popup__title">Заказать услугу</h2>
                         <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</p>
                         <div class="popup__input-wrapper"> 
-                            <input class="popup__input" type="text" placeholder="Имя">
-                            <input class="popup__input" type="text" placeholder="Электронная почта">
-                            <input class="popup__input" type="text" placeholder="Номер телефона">
+                            <input class="popup__input" type="name" name="name" autocomplete="on" placeholder="Имя">
+                            <input class="popup__input" type="email" name="email" autocomplete="on" placeholder="Электронная почта">
+                            <input class="popup__input" type="tel" name="phone" autocomplete="on" placeholder="Номер телефона">
                         </div>
-                        <div class="popup__btn">Отправить</div>
+                        <button class="full-btn full-btn__small-popup">Отправить</button>
                         <div class="popup__btn-close js-popup__btn-close"></div>
                     </div>
                 </div>
@@ -210,8 +211,8 @@
     <section class="reviews">
         <div class="container">
             <h2 class="title">Отзывы</h2>
-            <div class="reviews__box-wrapper">
-                <div class="reviews__box">
+            <ul class="reviews__box-wrapper">
+                <li class="reviews__box">
                     <div class="reviews__title">Ксения, проект 65 кв.м.</div>
                     <div class="reviews__text">Хочу искренне поблагодарить Вас 
                         за работу, проделанную на высоком уровне! Нам с мужем 
@@ -226,8 +227,8 @@
                         красоту, которую Вы нам создали в жизнь и поделиться с Вами 
                         результатом!
                     </div>
-                </div>
-                <div class="reviews__box">
+                </li>
+                <li class="reviews__box">
                     <div class="reviews__title">Регина, проект 89 кв.м.</div>
                     <div class="reviews__text">Спасибо большое за такой классный проект! 
                         Все стильно, круто, продумано! Очень приятно было с вами работать! 
@@ -240,8 +241,8 @@
                         функциональной и красивой квартирой! Будем рекомендовать Вас всем 
                         друзьям и знакомым!
                     </div>
-                </div>
-                <div class="reviews__box">
+                </li>
+                <li class="reviews__box">
                     <div class="reviews__title">Яна, проект 120 кв.м.</div>
                     <div class="reviews__text">Хотелось бы сказать большое спасибо за 
                         проделанную работу! В задачу Марины входила разработка дизайн-проекта 
@@ -257,8 +258,8 @@
                         стильным и современным! Буду рекомендовать Вас тем, кому еще 
                         предстоит это непростое дело - ремонт!
                     </div>
-                </div>
-            </div>
+                </li>
+            </ul>
         </div>
     </section>
     <!--Слайды-->

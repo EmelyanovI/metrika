@@ -7,20 +7,6 @@
     color: #121212;
     letter-spacing: -0.03em;
 }
-.about__btn{
-    font-size: 20px;
-    line-height: 27px;
-    background-color: #ad1818;
-    display: block;
-    align-items: center;
-    text-decoration: none;
-    padding: 20px 40px;
-    gap: 10px;
-    border-radius: 5px;
-    position: absolute;
-    color: #fff;
-    letter-spacing: -0.03em;
-}
 .about__btn:hover{
     color: #fff;
     background: #ad1818;
@@ -34,10 +20,6 @@
         letter-spacing: -0.07em;
         padding-bottom: 28px;
     }
-    .about__btn {
-        font-size: 20px;
-        line-height: 28px;
-    }
 }
 @media (max-width: 819px) and (min-width: 576px) {
     /*О нас*/
@@ -45,11 +27,6 @@
         width: 94%;
         font-size: calc(35px + 10 * (100vw - 576px) / 623);
         line-height: calc(47px + 14 * (100vw - 576px) / 623);
-    }
-    .about__btn {
-        font-size: 18px;
-        line-height: 25px;
-        padding: 18px 30px;
     }
 }
 @media (max-width: 575px){
@@ -63,10 +40,5 @@
         width: 100%;
         font-size: calc(22px + 23 * (100vw - 350px) / 849);
         line-height: calc(30px + 31 * (100vw - 350px) / 849);
-    }
-    .about__btn {
-        font-size: 16px;
-        line-height: 22px;
-        padding: 14.5px 27px;
     }
 }

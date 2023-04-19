@@ -58,17 +58,6 @@
 .popup__input::placeholder{
     opacity: 0.5;
 }
-.popup__btn{
-    width: 86%;
-    height: 67px;
-    padding: 20px 0;
-    margin: 0 auto 86px;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 5px;
-    color: #ffffff;
-    background-color: #ad1818;
-}
 .popup__btn-close{
     position: absolute;
     right: 44px;
@@ -110,10 +99,6 @@
         border: none;
         border-bottom: 1px solid #000000;
     }
-    .popup__btn{
-        width: 92%;
-        margin: 0 auto 80px;
-        }
     .popup__btn-close{
         right: 35px;
         top: 46px;
