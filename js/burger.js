@@ -1,6 +1,7 @@
 const BURGER_OPENED_CLASSNAME = 'menu__burger-open';
 const BURGER_BTN_OPENED_CLASSNAME = 'menu__btn-open';
 
+
 const burgerNode = document.querySelector('.js-menu__burger');
 const burgerBtnNode = document.querySelector('.js-menu__btn');
 const burgerContentNode = document.querySelector('.js-menu__burger-wrapper')

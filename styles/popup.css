@@ -74,6 +74,10 @@
     .popup__content{
         margin: 0 35px 0 35px;
     }
+    .popup__text{
+        margin: 0 auto;
+        width: 92%;
+    }
 }
 @media (max-width: 575px){
     .popup__content{
